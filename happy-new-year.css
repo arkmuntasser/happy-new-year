@@ -29,6 +29,12 @@ canvas {
   }
 }
 
+@media (max-width: 736px) and (orientation: landscape) {
+  .countdown-clock {
+    font-size: 32px;
+  }
+}
+
 .time-container {
   display: inline-block;
   margin: 10px;
@@ -37,6 +43,13 @@ canvas {
 }
 
 @media (max-width: 640px) {
+  .time-container {
+    margin: 5px;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 736px) and (orientation: landscape) {
   .time-container {
     margin: 5px;
     padding: 5px;
@@ -54,12 +67,24 @@ canvas {
   }
 }
 
+@media (max-width: 736px) and (orientation: landscape) {
+  .label {
+    font-size: 28px;
+  }
+}
+
 .number {
   font-size: 128px;
   font-weight: 400;
 }
 
 @media (max-width: 640px) {
+  .number {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 736px) and (orientation: landscape) {
   .number {
     font-size: 64px;
   }
