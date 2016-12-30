@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Happy New Year</title>
 
+  <link href="https://fonts.googleapis.com/css?family=Lato:400i,900i" rel="stylesheet">
   <link href="happy-new-year.css" rel="stylesheet">
 
   <style>
@@ -19,11 +20,21 @@
     body {
       margin: 0;
       padding: 0;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      width: 100%;
+      height: 100%;
+      font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 16px;
       line-height: 1.1;
       color: #fff;
       background-color: #333;
+      background: rgba(68,68,68,1);
+      background: -moz-radial-gradient(center, ellipse cover, rgba(68,68,68,1) 0%, rgba(34,34,34,1) 100%);
+      background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(68,68,68,1)), color-stop(100%, rgba(34,34,34,1)));
+      background: -webkit-radial-gradient(center, ellipse cover, rgba(68,68,68,1) 0%, rgba(34,34,34,1) 100%);
+      background: -o-radial-gradient(center, ellipse cover, rgba(68,68,68,1) 0%, rgba(34,34,34,1) 100%);
+      background: -ms-radial-gradient(center, ellipse cover, rgba(68,68,68,1) 0%, rgba(34,34,34,1) 100%);
+      background: radial-gradient(ellipse at center, rgba(68,68,68,1) 0%, rgba(34,34,34,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#222222', GradientType=1 );
     }
 
     p { margin-bottom: 20px; }
@@ -39,6 +50,8 @@
   </style>
 </head>
 <body>
+
+  <canvas id="canvas"></canvas>
 
   <div class="countdown-clock-container">
     <div class="countdown-clock" data-countdown-clock>
