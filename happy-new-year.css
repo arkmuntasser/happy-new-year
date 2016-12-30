@@ -23,6 +23,12 @@ canvas {
   text-transform: uppercase;
 }
 
+@media (max-width: 640px) {
+  .countdown-clock {
+    font-size: 32px;
+  }
+}
+
 .time-container {
   display: inline-block;
   margin: 10px;
@@ -30,12 +36,31 @@ canvas {
   text-align: center;
 }
 
+@media (max-width: 640px) {
+  .time-container {
+    margin: 5px;
+    padding: 5px;
+  }
+}
+
 .label {
   font-size: 56px;
   font-weight: 900;
 }
 
+@media (max-width: 640px) {
+  .label {
+    font-size: 28px;
+  }
+}
+
 .number {
   font-size: 128px;
   font-weight: 400;
+}
+
+@media (max-width: 640px) {
+  .number {
+    font-size: 64px;
+  }
 }
