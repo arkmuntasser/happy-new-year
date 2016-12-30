@@ -1,0 +1,29 @@
+.countdown-clock-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  max-width: 845px;
+  transform: translate(-50%, -50%);
+}
+
+.countdown-clock {
+  position: relative;
+  font-size: 64px;
+  font-style: italic;
+  text-align: center;
+}
+
+.time-container {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 56px;
+}
+
+.number { font-size: 128px; }

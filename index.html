@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="author" content="Amir R Muntasser" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Happy New Year</title>
+
+  <link href="happy-new-year.css" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.1;
+      color: #fff;
+      background-color: #333;
+    }
+
+    p { margin-bottom: 20px; }
+
+    .clear { clear: both; }
+
+    .container {
+      margin: 0 auto;
+      padding: 0 12px;
+      width: 100%;
+      max-width: 800px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="countdown-clock-container">
+    <div class="countdown-clock" data-countdown-clock>
+      <div class="time-container">
+        <div class="number" data-days>
+          01
+        </div>
+        <div class="label">
+          Days
+        </div>
+      </div>
+      <div class="time-container">
+        <div class="number" data-hours>
+          01
+        </div>
+        <div class="label">
+          Hours
+        </div>
+      </div>
+      <div class="time-container">
+        <div class="number" data-mins>
+          01
+        </div>
+        <div class="label">
+          Mins
+        </div>
+      </div>
+      <div class="time-container">
+        <div class="number" data-secs>
+          01
+        </div>
+        <div class="label">
+          Secs
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="jquery.countdown.min.js"></script>
+  <script src="happy-new-year.js"></script>
+</body>
+</html>
