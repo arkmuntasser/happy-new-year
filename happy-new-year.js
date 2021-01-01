@@ -1,6 +1,6 @@
 $(document).ready(function() {
   var countdownClock = $('[data-countdown-clock]');
-  var finalDate = '01/01/2018';
+  var finalDate = '01/01/2021';
 
   countdownClock
     .countdown(finalDate)
